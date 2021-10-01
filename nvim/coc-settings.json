@@ -1,0 +1,16 @@
+{
+   "coc.preferences.formatOnSaveFiletypes":[
+      "css",
+      "json",
+      "prisma",
+      "markdown",
+      "typescript",
+      "javascript",
+      "reacttypescript",
+      "typescriptreact",
+      "rust",
+      "go",
+      "c",
+      "cpp"
+   ]
+}
