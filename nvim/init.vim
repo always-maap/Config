@@ -1,4 +1,5 @@
 set relativenumber
+syntax enable
 
 let mapleader = " "
 
@@ -11,11 +12,12 @@ Plug 'kyazdani42/nvim-tree.lua'
 " theming
 Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
+Plug 'haishanh/night-owl.vim'
 
-
+"
 Plug 'itchyny/lightline.vim'
 
-
+"
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
   \ 'branch': 'release/0.x'
@@ -40,7 +42,11 @@ Plug 'kyazdani42/nvim-tree.lua'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'lewis6991/gitsigns.nvim'
 
+"
 Plug 'windwp/nvim-autopairs'
+
+" rust
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
@@ -52,13 +58,14 @@ let g:gruvbox_contrast_dark = 'hard'
 set t_Co=256
 set background=dark
 highlight Normal ctermbg=NONE
-colorscheme gruvbox 
+colorscheme night-owl
 
-let g:lightline = {
-  \ 'colorscheme': 'gruvbox',
-  \ }
+let g:lightline = {'colorscheme': 'nightowl'}
 
-set termguicolors
+if (has("termguicolors"))
+  set termguicolors
+endif
+
 lua << EOF
 require("bufferline").setup{}
 EOF
