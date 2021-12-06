@@ -48,6 +48,9 @@ Plug 'windwp/nvim-autopairs'
 " rust
 Plug 'rust-lang/rust.vim'
 
+"
+Plug 'airblade/vim-rooter'
+
 call plug#end()
 
 for f in glob('~/.config/nvim/src/*.vim', 0, 1)
