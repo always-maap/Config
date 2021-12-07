@@ -51,6 +51,12 @@ Plug 'rust-lang/rust.vim'
 "
 Plug 'airblade/vim-rooter'
 
+"
+Plug 'lukas-reineke/indent-blankline.nvim'
+
+"
+Plug 'github/copilot.vim'
+
 call plug#end()
 
 for f in glob('~/.config/nvim/src/*.vim', 0, 1)
@@ -68,10 +74,5 @@ let g:lightline = {'colorscheme': 'nightowl'}
 if (has("termguicolors"))
   set termguicolors
 endif
-
-lua << EOF
-require("bufferline").setup{}
-EOF
-
 
 
