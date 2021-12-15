@@ -1,6 +1,7 @@
 " Jump to definition and type-definition
 nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gt <Plug>(coc-type-definition)
+nmap <leader>gr <Plug>(coc-references)
 
 inoremap <silent><expr> <c-space> coc#refresh()
 

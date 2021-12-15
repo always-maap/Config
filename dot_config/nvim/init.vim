@@ -67,9 +67,9 @@ let g:gruvbox_contrast_dark = 'hard'
 set t_Co=256
 set background=dark
 highlight Normal ctermbg=NONE
-colorscheme night-owl
+colorscheme onedark
 
-let g:lightline = {'colorscheme': 'nightowl'}
+let g:lightline = {'colorscheme': 'onedark'}
 
 if (has("termguicolors"))
   set termguicolors
