@@ -63,6 +63,7 @@ for f in glob('~/.config/nvim/src/*.vim', 0, 1)
   execute 'source' f
 endfor
 
+set termguicolors
 let g:gruvbox_contrast_dark = 'hard'
 set t_Co=256
 set background=dark
