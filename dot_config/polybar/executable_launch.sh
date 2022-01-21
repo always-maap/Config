@@ -2,4 +2,4 @@
 
 killall -q polybar
 
-polybar -r example
+polybar -r bottom 
