@@ -1,5 +1,6 @@
 set relativenumber
 syntax enable
+set mouse=a
 
 let mapleader = " "
 
