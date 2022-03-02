@@ -1,8 +1,11 @@
-nnoremap <C-n> :NvimTreeToggle<CR>
-nnoremap <leader>r :NvimTreeRefresh<CR>
-nnoremap <leader>c :NvimTreeFindFile<CR>
+vim.api.nvim_set_keymap('n', '<C-n>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>r', ':NvimTreeRefresh<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>c', ':NvimTreeFindFile<CR>', { noremap = true, silent = true })
 
-lua << EOF
+-- delete buffers without losing window layout
+-- https://www.reddit.com/r/neovim/comments/nyqtwz/how_to_stop_nvim_tree_to_focus_when_a_buffer_is/
+vim.api.nvim_set_keymap('n', '<leader>x', ':bp<bar>sp<bar>bn<bar>bd<CR>', { noremap = true, silent = true })
+
 require'nvim-tree'.setup {
   disable_netrw       = true,
   hijack_netrw        = true,
@@ -50,5 +53,3 @@ require'nvim-tree'.setup {
     }
   }
 }
-EOF
-
