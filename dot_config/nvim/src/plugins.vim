@@ -10,7 +10,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'haishanh/night-owl.vim'
 
 "
-Plug 'itchyny/lightline.vim'
+Plug 'feline-nvim/feline.nvim'
 
 "
 Plug 'prettier/vim-prettier', {
