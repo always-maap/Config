@@ -13,7 +13,9 @@ set termguicolors
 set t_Co=256
 set background=dark
 highlight Normal ctermbg=NONE
-colorscheme onedark
+colorscheme tokyonight
+
+let g:tokyonight_style = "night"
 
 if (has("termguicolors"))
   set termguicolors

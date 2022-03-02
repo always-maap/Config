@@ -8,6 +8,7 @@ Plug 'kyazdani42/nvim-tree.lua'
 Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
 Plug 'haishanh/night-owl.vim'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 "
 Plug 'feline-nvim/feline.nvim'
