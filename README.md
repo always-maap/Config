@@ -1,4 +1,4 @@
-<div style="float: left">
+<span align="left">
 
 - OS: [Manjaro](https://manjaro.org/)
 - WM: [i3](https://github.com/Airblader/i3)
@@ -7,9 +7,9 @@
 - Terminal: Alacritty
 - Terminal Multiplexer: tmux
 
-</div>
+</span>
 
-<pre style="float: right" align="right">
+<pre align="right">
   <code>
 tur1ng@tur1ng                          ██████████████████  ████████
 -------------                          ██████████████████  ████████
