@@ -1,3 +1,5 @@
+<div style="float: left">
+
 - OS: [Manjaro](https://manjaro.org/)
 - WM: [i3](https://github.com/Airblader/i3)
 - Editor: neovim
@@ -5,7 +7,9 @@
 - Terminal: Alacritty
 - Terminal Multiplexer: tmux
 
-<pre align="right">
+</div>
+
+<pre style="float: right" align="right">
   <code>
 tur1ng@tur1ng                          ██████████████████  ████████
 -------------                          ██████████████████  ████████
