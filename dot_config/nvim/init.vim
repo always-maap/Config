@@ -1,6 +1,7 @@
 " general
 set relativenumber
 syntax enable
+set clipboard+=unnamedplus
 set mouse=a
 set tabstop=2
 
