@@ -27,6 +27,7 @@ source ~/.config/nvim/src/coc.vim
 lua require('autopairs-config')
 lua require('buffer-line-config')
 lua require('feline-config')
+lua require('comment-plugin')
 lua require('gitsigns-config')
 lua require('indent-blankline-config')
 lua require('keymap-config')

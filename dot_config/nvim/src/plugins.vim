@@ -40,6 +40,7 @@ Plug 'lewis6991/gitsigns.nvim'
 
 "
 Plug 'windwp/nvim-autopairs'
+Plug 'numToStr/Comment.nvim'
 
 " rust
 Plug 'rust-lang/rust.vim'
