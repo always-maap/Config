@@ -54,5 +54,8 @@ Plug 'lukas-reineke/indent-blankline.nvim'
 "
 Plug 'github/copilot.vim'
 
+" wakatime
+Plug 'wakatime/vim-wakatime'
+
 call plug#end()
 
