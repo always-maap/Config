@@ -57,5 +57,8 @@ Plug 'github/copilot.vim'
 " wakatime
 Plug 'wakatime/vim-wakatime'
 
+" editorconfig
+Plug 'editorconfig/editorconfig-vim'
+
 call plug#end()
 
