@@ -60,5 +60,8 @@ Plug 'wakatime/vim-wakatime'
 " editorconfig
 Plug 'editorconfig/editorconfig-vim'
 
+" emmet
+Plug 'mattn/emmet-vim'
+
 call plug#end()
 
