@@ -9,7 +9,7 @@
 
 ![My animated logo](./screenshot-2.png)
 
-- [vim-plug](https://github.com/junegunn/vim-plug): plugin manager
+- [lazy.nvim](https://github.com/folke/lazy.nvim): plugin manager
 - theming:
   - [devicons](https://github.com/ryanoasis/vim-devicons): file type icons to Vim plugins
   - [tokyonight](https://github.com/folke/tokyonight.nvim): dark Neovim theme with support for lsp, treesitter
@@ -17,8 +17,5 @@
 - [bufferline](https://github.com/akinsho/bufferline.nvim): buffer tab view
 - [telescope](https://github.com/nvim-telescope/telescope.nvim): fuzzy finder
 - [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim): buffer parser for better syntax highlighting
-- [coc](https://github.com/neoclide/coc.nvim): nodejs extension for hosting language servers
+- [mason](https://github.com/mason-org/mason.nvim): install and manage LSP servers
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter):
-- utils:
-  - [vim-rooter](https://github.com/airblade/vim-rooter): change vim working directory to project root
-  - [auto-pairs](https://github.com/jiangmiao/auto-pairs): brackets, parens, quotes in pair
