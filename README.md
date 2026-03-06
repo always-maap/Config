@@ -1,9 +1,12 @@
-- OS: [Manjaro](https://manjaro.org/)
-- WM: [i3](https://github.com/Airblader/i3)
-- Editor: neovim
+- Distribution: [Arch](https://archlinux.org/)
+- Compositor: [Hyprland](https://hypr.land/)
+- Editor: [Neovim](https://neovim.io/)
 - Shell: zsh
-- Terminal: Ghostty
-- Terminal Multiplexer: zellij
+- Terminal: [Ghostty](https://ghostty.org/)
+- Terminal Multiplexer: [Zellij](https://zellij.dev/)
+
+## Hyprland
+
 
 ## Neovim
 
