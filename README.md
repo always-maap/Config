@@ -1,14 +1,18 @@
-- Distribution: [Arch](https://archlinux.org/)
-- Compositor: [Hyprland](https://hypr.land/)
-- Editor: [Neovim](https://neovim.io/)
-- Shell: zsh
-- Terminal: [Ghostty](https://ghostty.org/)
-- Terminal Multiplexer: [Zellij](https://zellij.dev/)
+## Workspace
 
-## Hyprland
+### [Arch](https://archlinux.org/)
 
 
-## Neovim
+### [Hyprland](https://hypr.land/)
+
+
+### [Ghostty](https://ghostty.org/)
+gpu goes brrr
+
+### [fish](https://fishshell.com/)
+zsh + 50 plugins built in
+
+### [Neovim](https://neovim.io/)
 
 ![My animated logo](./screenshot-2.png)
 
@@ -22,3 +26,5 @@
 - [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim): buffer parser for better syntax highlighting
 - [mason](https://github.com/mason-org/mason.nvim): install and manage LSP servers
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter):
+
+### [Zellij](https://zellij.dev/)
