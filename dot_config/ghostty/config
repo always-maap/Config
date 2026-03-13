@@ -1,0 +1,4 @@
+font-size = 24
+theme = Adventure
+copy-on-select = false
+selection-clear-on-copy = true
