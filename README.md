@@ -1,18 +1,39 @@
 ## Workspace
+- Distribution: [Arch](https://archlinux.org/)
+- Compositor: [Hyprland](https://hypr.land/)
+- Editor: [Zed](https://zed.dev/), [Neovim](https://neovim.io/)
+- Shell: [fish](https://fishshell.com/)
+- Terminal: [Ghostty](https://ghostty.org/)
+- Terminal Multiplexer: [Zellij](https://zellij.dev/)
 
-## [Arch](https://archlinux.org/)
+## Arch
+
+[archinstall](https://github.com/archlinux/archinstall) is now included by default. I highly recommend installing arch using it. It took me 4 minutes and 51 seconds to install arch. 
+
+I used Manjaro for many year. I was surprised to learn that `man`, `less` and many other binaries are not installed by default :)))
+
+## Hyprland
+I used i3 for the past five years. There is nothing wrong with i3 until you try Hyprland. Hyprland is very well thought out. It's fast and configuration is intuitive.
+
+Immediately after installing it, You'll be thrown into a blank canvas with only your mouse working (if you are lucky). I instantly felt like I was home.
+
+One thing that was unexpected for me was [hyprland's wiki](https://wiki.hypr.land/). It's very beginner friendly. It seems like every problem that new users had was documented.
 
 
-## [Hyprland](https://hypr.land/)
+- [Vicinae](https://www.vicinae.com/)
+- [Waybar](https://github.com/alexays/waybar)
+- cliphist
+- hyprpaper
+- [Yazi](https://yazi-rs.github.io/)
+- dunst
 
-
-## [Ghostty](https://ghostty.org/)
+## Ghostty
 gpu goes brrr
 
-## [fish](https://fishshell.com/)
+## fish
 zsh + 50 plugins built in
 
-## [Neovim](https://neovim.io/)
+## Neovim
 
 ![My animated logo](./screenshot-2.png)
 
@@ -27,4 +48,65 @@ zsh + 50 plugins built in
 - [mason](https://github.com/mason-org/mason.nvim): install and manage LSP servers
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter):
 
-## [Zellij](https://zellij.dev/)
+## Zellij
+
+## Command-line programs
+
+- docker
+- kubectl
+- helm
+- argocd
+- minikube
+- curl
+- grpcurl
+- grpcui
+- scp
+- ffmpeg
+- Rclone
+- UxPlay
+- Ventoy
+- bat
+- frp
+- tcpdump
+
+## Applications
+
+- Zen
+- pwvucontrol
+- chromium
+- VLC
+- Cisco Secure Client
+- JetBrains Toolbox
+- Lens
+- OBS Studio
+- Telegram
+- TeamSpeak
+- Wireshark
+
+## Development
+
+Languages and Toolchains:
+
+- C/C++
+  - Make
+  - CMake
+  - vcpkg
+- Python
+  - pip
+  - uv
+- Rust
+  - cargo
+  - rustup
+  - just
+- Go
+- Lua
+- JavaScript/TypeScript
+  - fnm
+  - Node.js
+  - npm
+  - pnpm
+- Java
+  - Gradle
+- C#
+  - .NET
+  - NuGet
